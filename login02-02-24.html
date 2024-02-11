@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://assets.wired.com/photos/w_2000/wp-content/uploads/2016/12/BSP_056.jpg);
+        }
+
+        form{
+            width: 520px;
+            text-align: center;
+            margin-top: 10%;
+        }
+        label{
+            color: white;
+        }
+       input{
+        color: rgb(222, 221, 157);
+        background-color: black;
+       }
+       h1{
+        color: rgb(150, 200, 150);
+        margin-top: 20px;
+       }
+    </style>
+</head>
+<body>
+
+ <center> <h1>Login</h1>
+    <form action="">
+
+
+    <fieldset>
+  <legend>Login</legend>
+
+  <label for="name">Name :</label>
+  <input type="text" placeholder="Name"required><br><br><br>
+
+  <label for="Username">Username :</label>
+  <input type="text" name="" id=""placeholder="Username" required><br><br><br>
+
+  <label for="number">Password :</label>
+  <input type="password" placeholder="Password"required><br><br><br>
+
+  <label for="email">Email Id :</label>
+  <input type="email" placeholder="Email" required><br><br><br>
+
+
+
+
+   <button onclick="heel()">Login</button>
+
+
+
+
+    </fieldset>
+
+  </form>
+  <button onclick="nnn()">Back to Resgistration page</button>
+
+</center>
+  
+
+
+<script>
+    function heel(){
+        alert("sucessfully login")
+       window.location.assign("./cart-js.html")
+    }
+
+function nnn(){
+    window.history.back("./Resgistration.html")
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
