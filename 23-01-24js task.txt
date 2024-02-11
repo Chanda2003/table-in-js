@@ -1,0 +1,133 @@
+
+   23-01-2024
+
+
+
+-->Using sting print vowels count ?
+
+    var a;
+     a="venu";
+c=0
+        for(i=0;i<a.length;i++){
+            if(a[i]=="a"||a[i]=="e"||a[i]=="i"||a[i]=="o"||a[i]=="u"){
+                    c++
+         }
+}
+        console.log(c)
+
+
+output
+
+2 
+
+                              (or)
+
+      var a;
+     a="venu";
+b=""
+c=0
+        for(i=0;i<a.length;i++){
+            if(a[i]=="a"||a[i]=="e"||a[i]=="i"||a[i]=="o"||a[i]=="u"){
+                  
+                       b=b+a[i]
+                    c++
+         }
+}
+            console.log(b)
+        console.log(c) 
+
+      output
+
+          eu
+          2
+
+--> Using string print vowels
+
+     var a;
+     a="venu";
+
+        for(i=0;i<a.length;i++){
+            if(a[i]=="a"||a[i]=="e"||a[i]=="i"||a[i]=="o"||a[i]=="u"){
+                    console.log(a[i])  
+                     
+         }
+}
+   
+    output
+
+      e
+      u 
+
+
+ --> Using string print like venCHANuDA=CHANDAvenu
+
+
+       var a;
+         a="venCHANuDA"
+         aa=""
+         bb=""
+            for(i=0;i<a.length;i++){
+               
+                 b=a.charCodeAt(i)
+                    if(b>=65&&b<=90){
+                 aa=aa+a[i]
+
+
+
+}
+   else{
+           bb=bb+a[i]
+ }
+
+}    
+    cc=aa+bb
+      console.log(cc) 
+
+   output
+    CHANDAvenu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
